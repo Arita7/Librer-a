@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+}
+#title{
+    top: 35px;
+    font-weight: bold;
+    font-family:"sans-serif";
+    color: rgb(187, 123, 5);
+    font-size: 35px;
+    position: absolute;
+    top: 35px;
+    left: 850px;
+
+}
+#boton1{
+    position: absolute;
+    left: 1100px;
+    top: 45px;
+    background-color: white;
+}
+#buscar{
+    width:15px;
+    height:10px;
+}
+#contacto{
+    width:20px;
+    height:30px;
+    position: absolute;
+    left: 1350px;
+    top: 45px;
+}
+#Mgusta{
+    width:20px;
+    height:30px;
+    position: absolute;
+    left: 1400px;
+    top: 45px;
+}
+#carrito{
+    width:20px;
+    height:30px;
+    position: absolute;
+    left: 1450px;
+    top: 45px;
+}
+#navegacion1{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(197, 178, 5);
+    top: 75px;
+}
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(197, 178, 5);
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+#encabezado{
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    height: 590px;
+}
+.image-container{
+    position: relative;
+}
+.image-text{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 80px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+}
+#p1{
+    font-weight: bold;
+    font-size: 80px;
+    top: 400px;
+    left: 900px;
+}
+#p2{
+    font-weight: normal;
+    font-size: 30px;
+    bottom: 5%;
+    top: 150px;
+    left: 600px;
+}
+#p3{
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 5%;
+    top: 720px;
+    left: 20px;
+    color: brown;
+}
+#parte1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 750px;
+}
+.caja{
+    width: 300px;
+    height: 300px;
+    border: solid 2px black;
+}
+#libros{
+    width: 100%;
+    height: 100%;
+}
+#parte2{
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    width: 50%;
+    height: 500px;
+    text-align: justify;
+}
+#parte3{
+    position: relative;
+    top: 650px;
+    left: 900px;
+    width: 50%;
+    height: 500px;
+    text-align: justify;
+}
+#parf1{
+    font-size: 20px;
+    text-align: justify;
+    width: 90%;
+}
+footer{
+    background-color: rgb(231, 189, 2);
+    position: absolute;
+    top: 2070px;
+    width: 100%;
+    height: 50%;
+}
+#parte4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+}
